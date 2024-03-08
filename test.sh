@@ -3,7 +3,7 @@
 # Test for bad filename
 
 echo -n "Testing bad filename: "
-./maze mfze.txt > out
+./maze < /input/input_3.txt > out
 if grep -q "Error: Bad filename" out;
 then
     echo "Pass:
